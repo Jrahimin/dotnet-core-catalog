@@ -6,4 +6,7 @@ https://documenter.getpostman.com/view/3449677/TW71mSbT
 
 
 Docker Run Command : 
-docker run -it --rm -p 8080:80 -e MongoDbSettings:Host mongo --network=dot5catalog catalog:v1
+docker run -it --rm -p 8080:80 -e MongoDbSettings:Host=mongo --network=dot5catalog rahimin/catalog:v1
+
+Base Url : 
+http://localhost:8080/
